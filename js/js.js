@@ -8,7 +8,7 @@ let precio7 = 24500
 let precio8 = 22000
 
 
-function mostrarPrecio(codigo) {
+/*function mostrarPrecio(codigo) {
     switch (codigo) {
         case 1:
             alert("FLASHPOINT BEYOND " + "$" + precio1)
@@ -39,9 +39,9 @@ function mostrarPrecio(codigo) {
             alert("🤔 No comprendimos tu selección.")
             break;
     }
-}
+}*/
 
-/*OTRA MANERA MEJOR 
+//OTRA MANERA MEJOR 
 function mostrarPrecio(codigo) {
     let precio;
     let nombreComic;
@@ -85,9 +85,9 @@ function mostrarPrecio(codigo) {
     }
 
     alert(nombreComic + " $" + precio);
-}*/
+}
 
-function calcularCuotas(codigo) {
+/*function calcularCuotas(codigo) {
     switch (codigo) {
         case 1:
             for (let i = 1; i <= 3; i++) {
@@ -134,9 +134,9 @@ function calcularCuotas(codigo) {
             alert("🤔 No comprendimos tu selección.")
             break;
     }
-}
+}*/
 
-/*OTRA MANERA MEJOR
+//OTRA MANERA MEJOR
 function calcularCuotas(codigo) {
     let precio;
 
@@ -174,9 +174,9 @@ function calcularCuotas(codigo) {
     for (let i = 1; i <= 3; i++) {
         console.log("Te quedan " + i + " cuotas de $" + cuota);
     }
-}*/
+}
 
-function calcularDescuento(codigo) {
+/*function calcularDescuento(codigo) {
     switch (codigo) {
         case 1:
             console.log("El precio final es: " + "$" + (precio1 - (precio1 * 0.1)))
@@ -207,9 +207,9 @@ function calcularDescuento(codigo) {
             alert("🤔 No comprendimos tu selección.")
             break;
     }
-}
+}*/
 
-/*OTRA MANERA MEJOR
+//OTRA MANERA MEJOR
 function calcularDescuento(codigo) {
     let precio;
 
@@ -246,7 +246,7 @@ function calcularDescuento(codigo) {
     const descuento = precio * 0.1;
     const precioFinal = precio - descuento;
     console.log("El precio final es: $" + precioFinal);
-}*/
+}
 
 function consultarComic() {
     let respuesta = confirm("Deseas conocer el precio de algun Comic en especial?");
