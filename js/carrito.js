@@ -50,9 +50,11 @@ btncomprar.addEventListener('click', () => {
 
 //NO ME SALE LA SUMA DE LO QUE HAY EN EL CARRITO
 
-const cacularCarrito = () => {
+function cacularCarrito ()  {
     if (comicsEnCarrito.length > 0) {
         const totalCompra = comicsEnCarrito.reduce((acc, {carrito}) => acc + carrito.precio, 0)
-        total.querySelector('span.total').texContent = totalCompra
+        total.texContent = totalCompra
     }
 }
+
+cacularCarrito()
