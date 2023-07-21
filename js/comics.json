@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "imagen": "../multimedia/FLASHPOINTBEYOND.webp",
+        "nombre": "FLASHPOINT BEYOND",
+        "precio": 6399,
+        "editorial": "DC"
+    },
+    {
+        "id": 2,
+        "imagen": "../multimedia/BATMAN-SUPERMAN-LOSMEJORESDELMUNDO.png",
+        "nombre": "BATMAN/SUPERMAN: LOS MEJORES DEL MUNDO",
+        "precio": 5190,
+        "editorial": "DC"
+    },
+    {
+        "id": 3,
+        "imagen": "../multimedia/BATMANFLASH-ELPRENDEDOR.webp",
+        "nombre": "BATMAN FLASH: EL PRENDEDOR",
+        "precio": 3049,
+        "editorial": "DC"
+    },
+    {
+        "id": 4,
+        "imagen": "../multimedia/FLASH-RENACIMIENTO.png",
+        "nombre": "FLASH: RENACIMIENTO",
+        "precio": 4900,
+        "editorial": "DC"
+    },
+    {
+        "id": 5,
+        "imagen": "../multimedia/GRANDESTESOROSMARVEL-CAPITÁNAMÉRICADEJIMSTERANKO.webp",
+        "nombre": "GRANDES TESOROS MARVEL. CAPITÁN AMÉRICA",
+        "precio": 19250,
+        "editorial": "MARVEL"
+    },
+    {
+        "id": 6,
+        "imagen": "../multimedia/INVENCIBLEIRONMAN4-RIRIWILLIAMS.webp",
+        "nombre": "INVENCIBLE IRON MAN 4: RIRI WILLIAMS",
+        "precio": 17500,
+        "editorial": "MARVEL"
+    },
+    {
+        "id": 7,
+        "imagen": "../multimedia/ELINCREÍBLEHULKDEPETERDAVid2-PERDIDOENLASVEGAS.jpg",
+        "nombre": "EL INCREÍBLE HULK DE PETER DAVID 2: PERDIDO EN LAS VEGAS",
+        "precio": 24500,
+        "editorial": "MARVEL"
+    },
+    {
+        "id": 8,
+        "imagen": "../multimedia/MARVELOMNIBUSLOKI-AGENTEDEASGARD.jpg",
+        "nombre": "MARVEL OMNIBUS. LOKI: AGENTE DE ASGARD",
+        "precio": 22000,
+        "editorial": "MARVEL"
+    }
+]

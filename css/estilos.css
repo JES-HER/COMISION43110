@@ -9,11 +9,6 @@ html {
 }
 
 
-/*@font-face {
-    font-family: 'Roboto Mono', monospace, sans-serif;
-    src: href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;600&display=swap";
-}*/
-
 .body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -65,14 +60,201 @@ li {
     }
 }
 
-.ejercicio{
+
+.container {
+    padding-top: 30px;
+    gap: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
+.principal {
+    display: grid;
+    grid-column: auto;
+
+}
+
+.main {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 0;
+
+}
+
+.carrito {
+    cursor: pointer;
+    float: right;
+    width: auto;
+    padding: 22px;
+    margin-right: 20px;
+
+}
+
+.ircarrito {
+    font-size: 25px;
+    color: black;
 
 
+    text-decoration: none;
+
+    .cambioColor {
+        color: black;
+    }
+
+    .cambioColor:hover {
+        color: rgb(189, 116, 8);
+    }
 
 
+}
 
+.inicio {
+    cursor: pointer;
+    float: right;
+    width: auto;
+    padding: 22px;
+    margin-right: 20px;
+
+}
+
+.irinicio {
+    font-size: 25px;
+    color: black;
+
+
+    text-decoration: none;
+
+    .cambioColor {
+        color: black;
+    }
+
+    .cambioColor:hover {
+        color: rgb(189, 116, 8);
+    }
+}
+
+
+.card {
+    background-color: whitesmoke;
+    box-shadow: 5px 20px 20px rgba(211, 211, 211, 0.3);
+    border: 1px solid rgba(211, 211, 211, 0.384);
+    border-radius: 8px;
+    height: auto;
+    width: 180px;
+}
+
+.class-alertas {
+    padding-top: 8px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(189, 117, 8);
+    color: white;
+    width: 60%;
+    height: 40px;
+
+}
+.accion-alertas-quitar{
+    padding-top: 8px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(189, 117, 8);
+    color: white;
+    width: 60%;
+    height: 40px;
+}
+
+.mensajes-container {
+    gap: 20px;
+}
+
+
+.card .card-image {
+    text-align: center;
+    font-size: 60px;
+    display: block;
+    width: 1fr;
+}
+
+.imagen-prod {
+    width: 150px;
+    height: 200px;
+}
+
+.imagen-carrito {
+    width: 20px;
+    height: auto;
+}
+
+.card .card-name {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    width: 1fr;
+    height: 120px;
+}
+
+.card .card-price {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    width: 1fr;
+}
+
+.card .card-button {
+    text-align: center;
+    display: block;
+}
+
+.button-add {
+    cursor: pointer;
+}
+
+.button-add {
+    outline: 1px solid rgb(189, 116, 8) !important;
+    background-color: rgb(189, 116, 8);
+    color: white;
+}
+
+.button-accion-quitar {
+    outline: 1px solid rgb(189, 116, 8) !important;
+    background-color: rgb(189, 116, 8);
+    color: white;
+    cursor: pointer;
+}
+
+thead {
+    background-color: black !important;
+    color: white;
+}
+
+thead.total{
+    background-color: white !important;
+    color: black;
+}
+
+
+th,
+td {
+    padding: 16px !important;
+    margin: 6px;
+}
+
+tbody {
+    background-color: white !important;
+}
+
+hr{
+    width: 50px;
+    justify-content: left;
+}
