@@ -52,12 +52,12 @@ const agregarClickEnBotones = () => {
 
 
 function retornoCardError() {
-    return `<div class="card-error">
-                <h2>🔍</h2>
-                <h2>Houston, tenemos un problema.</h2>
-                <h3>No encontramos productos para mostrar.</h3>
-                <h4>Intenta de nuevo en unos instantes...</h4>
-            </div>`
+    return Swal.fire({
+        icon: 'error',
+        title: 'Lo lamentamos',
+        text: 'No se pudo cargar la pagina.',
+        footer: '<a href="../index.html">Intentar de vuelta.</a>'
+      })
 }
 
 
