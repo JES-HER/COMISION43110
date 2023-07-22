@@ -1,5 +1,5 @@
 const tbody = document.querySelector('tbody.tbody')
-const total = document.querySelector('span.total')
+const total = document.querySelector('span#total')
 const btnQuitar = document.querySelector('button#btnquitar.quitar')
 
 const armarTablaHTML = (carrito) => {
@@ -24,6 +24,7 @@ mostrarCarritos()
 btnQuitar.addEventListener('click', () => {
     localStorage.removeItem('comicsEnCarrito')
     tbody.innerHTML = ''
+    total.innerHTML = ''
     Swal.fire({
         position: 'center',
         icon: 'success',
@@ -31,6 +32,7 @@ btnQuitar.addEventListener('click', () => {
         showConfirmButton: false,
         timer: 1500
     })
+    
 })
 
 btncomprar.addEventListener('click', () => {
@@ -46,15 +48,19 @@ btncomprar.addEventListener('click', () => {
                 location.href = 'index.html'
             }
         })
+    localStorage.removeItem('comicsEnCarrito')
+    tbody.innerHTML = ''
 })
 
-//NO ME SALE LA SUMA DE LO QUE HAY EN EL CARRITO
 
-function cacularCarrito ()  {
+function calcularCarrito() {
     if (comicsEnCarrito.length > 0) {
-        const totalCompra = comicsEnCarrito.reduce((acc, {carrito}) => acc + carrito.precio, 0)
-        total.texContent = totalCompra
+        const totalCompra = comicsEnCarrito.reduce((acc, { precio }) => {
+            return acc + precio;
+        }, 0);
+        total.textContent = totalCompra
     }
 }
 
-cacularCarrito()
+
+calcularCarrito()

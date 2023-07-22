@@ -78,7 +78,7 @@ li {
 }
 
 .main {
-    
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -95,7 +95,6 @@ li {
     width: auto;
     padding: 22px;
     margin-right: 20px;
-
 }
 
 .ircarrito {
@@ -161,7 +160,8 @@ li {
     height: 40px;
 
 }
-.accion-alertas-quitar{
+
+.accion-alertas-quitar {
     padding-top: 8px;
     text-align: center;
     font-size: 15px;
@@ -238,7 +238,7 @@ thead {
     color: white;
 }
 
-thead.total{
+thead.total {
     background-color: white !important;
     color: black;
 }
@@ -254,7 +254,10 @@ tbody {
     background-color: white !important;
 }
 
-hr{
-    width: 50px;
-    justify-content: left;
-}
+hr {
+    background-color: black;
+    height: 1px;
+    margin-left: 0%;
+    width: 36%;
+  }
+
